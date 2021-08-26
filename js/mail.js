@@ -25,7 +25,6 @@ for ( var i = 0; i < listaMail.length; i++ ){
 //comunico all'utente se può entrare
 
 if (trovato == true) {
-    alert("Benvenuta/o!!!");
     document.getElementById("benvenuto").innerHTML = "Benvenuto/a: " + mailUtente;
     console.log(mailUtente);
 }else {
